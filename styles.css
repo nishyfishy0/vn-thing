@@ -34,11 +34,15 @@ body {
     position: relative;
     z-index: 1;
 
-    background-color: #3d6596dc;
+    background-color: rgb(16, 101, 150);
     color: white;
     padding: 20px;
     border-radius: 12px;
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    background-image: url("plaid.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
 #character-image {
